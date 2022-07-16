@@ -28,5 +28,16 @@ h1, h2 {
 #motto {
     font-family: Source Sans Pro, sans-serif;
     font-style: italic;
+    font-weight: 300;
     margin: 40px 0 0 30px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
 }

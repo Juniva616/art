@@ -24,6 +24,10 @@ h1 {
     color:white;
 }
 
+h2 {
+    color: rgb(41, 12, 59);
+}
+
 #logo-bg {
     background-image: url('../images/bg-image.jpg'); 
     background-repeat: no-repeat;
@@ -85,6 +89,10 @@ h1 {
     margin-bottom: 50px;
 }
 
+.text-center {
+    text-align: center;
+ }
+
 /* text of the section in two columns*/
 {
     box-sizing: border-box;
@@ -92,7 +100,9 @@ h1 {
 
 .column {
     float: left;
-    width: 50%;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
  }
 
 .row:after {
@@ -101,6 +111,12 @@ h1 {
     clear: both;
  }
 
- .text-center {
-    text-align: center;
+ .column-left {
+    float: left;
+    margin-left: 3em;
+ }
+
+ .column-right {
+    float: right;
+    margin-right: 3em;
  }

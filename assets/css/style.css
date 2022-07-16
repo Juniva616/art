@@ -103,7 +103,10 @@ h2 {
     width: 40%;
     padding: 20px;
     margin: auto;
+    text-align: justify;
  }
+ 
+
 
 .row:after {
     content: "";

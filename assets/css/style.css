@@ -10,7 +10,7 @@ body {
     font-family: Source Sans Pro, sans-serif;
     font-weight: 400;
     font-size: x-large;
-    color: #181835;
+    color: #26083f;
 }
 
 /* heading and logo*/
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(41, 12, 59);
+    color: rgb(25, 4, 80);
 }
 
 #logo-bg {
@@ -44,7 +44,7 @@ h2 {
 }
 
 #motto {
-    color: white;
+    color: whitesmoke;
     font-family: Source Sans Pro, sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -71,16 +71,16 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid  blue;
+    border-bottom: 1px solid  rgb(24, 24, 58);
 }
 
 .active {
-    border-bottom:   black;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #menu a {
     text-decoration: none;
-    color: rgb(12, 12, 92);
+    color: inherit;
 }
 
 #site-idea {
@@ -105,8 +105,6 @@ h2 {
     margin: auto;
     text-align: justify;
  }
- 
-
 
 .row:after {
     content: "";
@@ -145,7 +143,9 @@ h2 {
     width: 100%;
   }
 
-.cover {
-    border: 1 solid blueviolet;
-    padding: 5px;
+  /* footer*/
+  .contacts {
+    height: 100px;
+    background-color: #2e4608;
+    color: whitesmoke;
   }

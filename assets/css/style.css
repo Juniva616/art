@@ -30,6 +30,7 @@ h2 {
 
 #logo-bg {
     background-image: url('../images/bg-image.jpg'); 
+    background-color: #2e4608;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,7 +160,7 @@ h2 {
   .contacts {
     height: 130px;
     padding: 30px;
-    background-color: #2e4608;
+    background-color: #093f02;
     color: whitesmoke;
     margin:  30px;
   }

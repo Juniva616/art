@@ -58,7 +58,7 @@ h2 {
     font-family: Ubuntu, sans-serif;
     font-size: 100%;
     letter-spacing: 4px;
-     height: auto;
+    height: auto;
 }
 
 #menu, #logo {
@@ -153,6 +153,43 @@ h2 {
   hr {
     border-style: inset;
     border-width: 1px;
+  }
+
+  /* Media queries */
+  /* For larger to medium screen size from 1200px and less */
+
+  @media screen and (max-width: 1200px) {
+
+    body {
+        font-size: large;
+    }
+
+    #menu {    
+        font-size: 80%;
+        letter-spacing: 2px;
+        height: auto;
+    }
+    
+    #menu, #logo {
+        line-height: 60px;
+    }
+    
+    #menu li {
+        float: left;
+        list-style-type: none;
+        margin-left: 10px;
+    }
+
+    .column {
+        float: left;
+        width: 40%;
+        padding: 20px;
+        margin: auto;
+        text-align: justify;
+     }
+     
+  img {
+    width: 80%;   
   }
 
   /* footer*/

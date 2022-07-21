@@ -138,12 +138,23 @@ h2 {
     display: inline-block;
   }
 
+  .album2 a:hover {
+    color: #f05f5f;
+    text-decoration: none;
+  }
+
   .clear {
     clear: both;
   }
 
   .album a {
     text-align: center;
+  }
+
+  
+ .album a:hover {
+    color: #4548e0;
+    text-decoration: none;
   }
   
   img {
@@ -202,6 +213,14 @@ h2 {
     margin:  30px;
   }
 
+  .text-center a:hover {
+        color: #4548e0;
+        text-decoration: none;
+      }
+   
+
   footer a {
     color: whitesmoke;
   }
+
+  

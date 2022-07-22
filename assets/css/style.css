@@ -123,14 +123,23 @@ h2 {
     margin-right: 3em;
  }
 
- /* section Albums of paintings*/
-  
-.album {
-    width: 29%;
-    margin: 2%;
-    padding-top: 0;
-    display: inline-block;
-    vertical-align: top;
+ /* section Albums of paintings */
+
+  @media (min-width: 500px) {
+  .container {
+    display: flex;
+    border: 1px solid silver;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  }
+
+  .album {
+    flex-basis: 32%;
+    padding: 20px;
+    margin-top: 0;
+
   }
 
   .clear {
@@ -227,6 +236,19 @@ form input {
     border: none;
     border-radius: 6px;
     padding-left: 6px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: #9867C5;
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
   /* footer*/

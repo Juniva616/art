@@ -272,6 +272,10 @@ form input {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+textarea {
+  max-width: 95%;
+} 
+
 .button {
   border-radius: 6px;
   padding: 12px 20px;

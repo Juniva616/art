@@ -51,7 +51,7 @@ h2 {
     font-family: Source Sans Pro, sans-serif;
     font-style: italic;
     font-weight: 300;
-    margin: 100px 0 0 30px;
+    margin: 100px 0 30px 30px;
 }
 
 /* navigation links*/
@@ -127,7 +127,6 @@ h2 {
 
   .container {
     display: flex;
-    border: 1px solid silver;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
@@ -165,12 +164,6 @@ h2 {
   
   /* Media queries */
 
-  @media screen and (max-width: 1300px){
-    .video-wrapper {
-      background-color: #438f56;
-      flex-direction: column;
-    }
-  }
   /* For larger to medium screen size from 1080px to 500 px */
 
   @media screen and (max-width: 1080px){
@@ -206,14 +199,6 @@ h2 {
   img {
     width: 80%;   
   }
-
-  .video-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  .video {
-    flex-shrink: 1;
-  }
   }
 
   /*   For mobile phone screen size from 500px and less */
@@ -225,16 +210,8 @@ h2 {
       align-items: flex-start;
       justify-content: center;
     }
-   
-  .container2 {
-    display: flex;
-  }  
-
-  .video {
-    display: flex;
-    flex-wrap: wrap;
-  }
 } 
+
 /* Responsive video from youtube*/
 
 .iframe-container{
@@ -279,7 +256,7 @@ textarea {
 .button {
   border-radius: 6px;
   padding: 12px 20px;
-  background: #9867C5;
+  background: #064e1c;
   border: none;
   margin-left: 10px;
   color: white;

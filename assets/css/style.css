@@ -252,7 +252,6 @@ form input {
     border-radius: 6px;
     padding-left: 6px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-    max-width: 95%;
 }
 
 .button {

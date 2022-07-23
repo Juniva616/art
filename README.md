@@ -15,23 +15,25 @@ The main page contains a short biography of the artist, covers of three albums, 
 
  (https://juniva616.github.io/milestone-1/readme-files/scr-main.png)
 
-The Animals album will be interesting for those viewers who love cats, squirrels and other cute little and big animals. Many people have pets and would like to capture their images on the canvas.
+**The Animals album** will be interesting for those viewers who love cats, squirrels and other cute little and big animals. Many people have pets and would like to capture their images on the canvas.
 
 (https://juniva616.github.io/milestone-1/readme-files/scr-animals.png)
 
-The Landscapes album will be of interest to people who want to decorate the interior of their home with landscapes. The sea, greenery, the sun - this is what improves mood and inspires creativity! 
+**The Landscapes album** will be of interest to people who want to decorate the interior of their home with landscapes. The sea, greenery, the sun - this is what improves mood and inspires creativity! 
 
-The Flowers album will also be of interest to those people who love flowers and want to decorate their kitchen or bedroom with a picture of flowers, painted by hand, or just admire the creativity of other people.
+(https://juniva616.github.io/milestone-1/readme-files/scr-land.png)
+
+**The Flowers album** will also be of interest to those people who love flowers and want to decorate their kitchen or bedroom with a picture of flowers, painted by hand, or just admire the creativity of other people.
 
 (https://juniva616.github.io/milestone-1/readme-files/scr-flowers.png)
 
 
-### Existing features
+## Existing features
 
 
-#### The landing page image
+### The main page image
 
-The landing page includes a photograph with the title Our Tiny Gallery which immediately gives the user an idea what the site is dedicated to. The photograph with the cat's eyes is a fragment of Juniva's painting and at once attracts attention of the user.
+The main page includes a photograph with the title Our Tiny Gallery and the motto "Sweet pictures to feast your eyes :)" which immediately gives the user an idea what the site is dedicated to. The photograph with the cat's eyes is a fragment of Juniva's painting and at once attracts attention of the user.
 
 (https://juniva616.github.io/milestone-1/readme-files/scr-navbar.png)
 

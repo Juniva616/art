@@ -4,8 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: none;
-    
+    border: none;   
 }
 
 body {
@@ -45,7 +44,7 @@ h2 {
     margin: 50px 0 0 30px;
     font-size: 300%;   
 }
-
+/*  motto is places under the logo in the header */
 #motto {
     color: whitesmoke;
     font-family: Source Sans Pro, sans-serif;
@@ -85,6 +84,8 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
+
+/* the class site-idea styles the text section devoted to the site's goals*/
 
 .site-idea {
     clear: both;
@@ -164,7 +165,7 @@ h2 {
   
   /* Media queries */
 
-  /* For larger to medium screen size from 1080px to 500 px */
+  /* For medium screen size from 1080px to 500 px */
 
   @media screen and (max-width: 1080px){
 
@@ -262,7 +263,6 @@ form input {
 }
 /* The end of the code from outer source */
 
-
 textarea {
   max-width: 95%;
 } 
@@ -280,8 +280,7 @@ textarea {
   .text-center a:hover {
         color: #4548e0;
         text-decoration: none;
-      }
-   
+      }  
 
   footer a {
     color: whitesmoke;

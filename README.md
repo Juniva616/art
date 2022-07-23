@@ -69,6 +69,19 @@ This form is very valuable as it allows the users to express their emotions and 
 ## The footer
 
  At the footer on all four pages there are links to the artist's social media accounts. The inks will open in a new tab to make navigation easier for the user. The footer is valuable for the user as it gives the opportunity to connect through social networks.
-
  
 (https://juniva616.github.io/milestone-1/readme-files/scr-footer.png)
+
+## TESTING
+
+ I have tested the site in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.
+The site is adapted to different screen sizes. On large screens the site is displayed as is, on devices
+with screens smaller than 1080 pixels font and image sizes are reduced, and on mobile phones the order of images and videos changes from row to column, allowing the user to see them clearly.
+
+(https://juniva616.github.io/milestone-1/readme-files/scr-respons.png)
+ 
+All four html pages of site have passed validation on https://validator.w3.org/ without any  errors or warnings to show.
+ 
+(https://juniva616.github.io/milestone-1/readme-files/scr-w3c.png) 
+
+ The CSS code has passed validation on https://jigsaw.w3.org/css-validator/ 

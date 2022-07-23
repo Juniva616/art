@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: x-large;
     color: #26083f;
@@ -47,7 +47,7 @@ h2 {
 /*  motto is places under the logo in the header */
 #motto {
     color: whitesmoke;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
     font-weight: 300;
     margin: 100px 0 30px 30px;

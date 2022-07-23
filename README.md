@@ -84,4 +84,6 @@ All four html pages of site have passed validation on https://validator.w3.org/ 
  
 (https://juniva616.github.io/milestone-1/readme-files/scr-w3c.png) 
 
- The CSS code has passed validation on https://jigsaw.w3.org/css-validator/ 
+ The CSS code has passed validation on https://jigsaw.w3.org/css-validator/ without any warnings or errors.
+
+ (https://juniva616.github.io/milestone-1/readme-files/scr-css.png) 

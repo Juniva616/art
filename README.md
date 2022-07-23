@@ -34,7 +34,19 @@ Navigation on the site is represented by:
 - the navigation bar featured on all four pages. The navigation bar is fully responsive and consists of links Home Animals Landscapes Flowers and Contacts.
 - A permanent link underline shows which page the user is currently on, while a temporary underline appears below the link the cursor hovers, making navigation easy and intuitive.
 
-- Since each album contains many pictures, after viewing which the user will need to return to the navigation bar, it is very convenient to use the up arrow link located at the bottom of each page. This allows the user to navigate the site intuitively and easily.
+- Since each album contains many pictures, after viewing which the user will need to return to the navigation bar, it is very convenient to use the up arrow link located at the bottom of each page. This allows the user to navigate the site  easily with no need to scroll up.
 
 (https://juniva616.github.io/milestone-1/readme-files/scr-arrowup.png)
 
+The section **Albums of paintings** briefly tells about the artist and contains links to the covers of three albums with paintings. This section is important because it briefly and concisely gives an idea of   the content of the site as a whole.
+(https://juniva616.github.io/milestone-1/readme-files/scr-albums.png)
+
+
+The master classes section contains explanations and three instructional videos of painting masters. This section is very important and helpful as it shows anyone who wants to make their drawing dreams come true.
+
+Below is a feedback form, where the user is invited to leave their full name and email and feedback about the art gallery.
+This form is very valuable as it allows the user to express their emotions and leave their feedback.
+
+footer
+.. Links will open in a new tab to make navigation easier for the user.
+The footer is valuable for the user, as it gives the opportunity to connect through social networks.

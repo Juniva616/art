@@ -30,5 +30,11 @@ The landing page includes a photograph with the title Our Tiny Gallery which imm
 
 ## Navigation
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
- 
+Navigation on the site is represented by:
+- the navigation bar featured on all four pages. The navigation bar is fully responsive and consists of links Home Animals Landscapes Flowers and Contacts.
+- A permanent link underline shows which page the user is currently on, while a temporary underline appears below the link the cursor hovers, making navigation easy and intuitive.
+
+- Since each album contains many pictures, after viewing which the user will need to return to the navigation bar, it is very convenient to use the up arrow link located at the bottom of each page. This allows the user to navigate the site intuitively and easily.
+
+(https://juniva616.github.io/milestone-1/readme-files/scr-arrowup.png)
+

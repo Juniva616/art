@@ -163,15 +163,11 @@ with screens smaller than 1080 pixels font and image sizes are reduced, and on m
  
  ### HTML validation 
  
-All four html pages of site have passed validation on https://validator.w3.org/ without any  errors or warnings to show.
- 
- ![Validation html on W3C- screenshot](https://juniva616.github.io/milestone-1/readme-files/scr-w3c.png) 
+All four html pages of site have passed validation on https://validator.w3.org/ without any  errors or warnings to show. 
  
   ### CSS validation 
 
  The CSS code has passed validation on https://jigsaw.w3.org/css-validator/ without any warnings or errors.
-
-  ![Validation CSS on jigsaw.w3.org- screenshot](https://juniva616.github.io/milestone-1/readme-files/scr-css.png) 
   
   ------
   ## LightHouse reports

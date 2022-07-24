@@ -53,7 +53,19 @@ h2 {
     margin: 100px 0 30px 30px;
 }
 
-/* navigation links*/
+/* navigation bar links*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+ flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  font-size: 100%;
+}
 
 #menu {
     font-family: Ubuntu, sans-serif;
@@ -66,11 +78,11 @@ h2 {
     line-height: 90px;
 }
 
-#menu li {
-    float: left;
-    list-style-type: none;
-    margin-left: 10%;
+#menu div {
+    text-decoration: none;
+    margin-left: 8%;
 }
+
 
 #menu a:hover {
     border-bottom: 1px solid  rgb(24, 24, 58);
@@ -86,6 +98,34 @@ h2 {
 }
 
 /* the class site-idea styles the text section devoted to the site's goals*/
+
+
+.flex-container-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.flex-item-left {
+  padding: 10px;
+  margin: 2%;
+  flex: 40%;
+}
+
+.flex-item-right {                     
+  padding: 10px;
+  margin: 2%;
+  flex: 40%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout at screen size 800px and less*/
+@media (max-width: 800px) {
+  .flex-container-text {
+    flex-direction: column;
+  }
+}
 
 .site-idea {
     clear: both;
@@ -164,6 +204,16 @@ h2 {
   }
   
   /* Media queries */
+
+/* For large screen sizes from 1400px to 1081px */
+
+@media screen and (max-width: 1400px){
+  #menu {
+    font-size: 100%;
+    letter-spacing: 3px;
+    height: auto;
+  }
+}
 
   /* For medium screen size from 1080px to 500 px */
 

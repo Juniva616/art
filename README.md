@@ -128,14 +128,14 @@ This form is very valuable as it allows the users to establish interactive commu
 - As a first visitor, I want to be able to easily navigate through the site looking for content.
 
 - The site has been designed to be intuitive and never trap the user. Each page has a simple navigation bar at the top, each link clearly describing which page they will land on.
-- At the bottom of all pages there is an up arrow link to redirect to the top of the page so that the user can easily navigate the site and never feel trapped when they get to the bottom of the page. By clicking on the link with an arrow up, the user is moved to the top of the page, where the navigation bar is located.
+- At the bottom of all pages there is an arrow up link to redirect to the top of the page so that the user can easily navigate through the site and never feel trapped when they get to the bottom of the page. By clicking on the link with an arrow up, the user is moved to the top of the page, where the navigation bar is located.
 
-- At the bottom of each page there is a call to "Contact Us" and links to social networks.
+- At the bottom of each page there is a call for action "Contact Us" and links to social networks.
 - As a first visitor, I want to find their social media links to see their social media followers to determine how trusted and known they are.
 
 **Goals of regular visitors**
 
-- As a regular visitor, I want to find new paintings, painting workshops and information about the artist.
+- As a regular visitor, I want to find new paintings, painting masterclasses and information about the artist.
 
 - As a regular visitor, I want to find the best way to contact the artist for any questions I may have.
 
@@ -148,7 +148,7 @@ Also on the main page, they can fill out a form or send a message on social netw
 
 - As a regular visitor, I want to find a Facebook group link so I can join and chat with other members of the community.
 
-- The Facebook page can be found in the footer of every page and will open a new tab for the user, and more information can be found on the Facebook page.
+- The Facebook page link can be found in the footer of every page and will open a new tab for the user, and more information can be found on the Facebook page.
 
  ------
 
@@ -172,3 +172,9 @@ All four html pages of site have passed validation on https://validator.w3.org/ 
  The CSS code has passed validation on https://jigsaw.w3.org/css-validator/ without any warnings or errors.
 
   ![Validation CSS on jigsaw.w3.org- screenshot](https://juniva616.github.io/milestone-1/readme-files/scr-css.png) 
+  
+  ------
+  ## LightHouse reports
+  
+  
+  

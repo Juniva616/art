@@ -116,6 +116,10 @@ This form is very valuable as it allows the users to establish interactive commu
 6. **Paint and Photos:**
   
 - Paint and Photos were used to create the logo, resizing images and editing photos for the website.
+
+7. https://ui.dev/amiresponsive
+
+- The site allowed to get a nice picture demonstrating how my site will look on different devices.
  
  ------
  ## Testing user stories from the User Experience (UX) section
@@ -153,9 +157,11 @@ Also on the main page, they can fill out a form or send a message on social netw
  ------
 
 # Testing
-The site have been tested in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.
-The site is adapted to different screen sizes. On large screens the site is displayed as is, on devices
+- The site have been tested in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.
+- The site is adapted to different screen sizes which is tested with DevTools. On large screens the site is displayed as is, on devices
 with screens smaller than 1080 pixels font and image sizes are reduced, and on mobile phones the order of images and videos changes from row to column, allowing the user to see them clearly.
+- All pages of the site looks good and readable on types of devices. 
+- The form on the main page works properly, the buttons Submit and Clear form work well, input fields also work properly.
 
  ![Responsive site on different screen sizes](https://juniva616.github.io/milestone-1/readme-files/scr-respons.png)
  
@@ -171,6 +177,57 @@ All four html pages of site have passed validation on https://validator.w3.org/ 
   
   ------
   ## LightHouse reports
-  
-  
-  
+
+ I have tested the site with LightHouse and here is the results.
+
+ 
+
+ The site accessibility is 100, the same good results are for Performance, Best Practices and CEO.
+
+ ![LightHouse report for index.html](https://juniva616.github.io/milestone-1/readme-files/lh-index.png)
+ ![LightHouse report for animals.html](https://juniva616.github.io/milestone-1/readme-files/lh-animals.png)
+ ![LightHouse report for lanscapes.html](https://juniva616.github.io/milestone-1/readme-files/lh-land.png)
+ ![LightHouse report for flowers.html](https://juniva616.github.io/milestone-1/readme-files/lh-flowers.png)
+
+
+## Fixed bugs
+
+When I tested the site on the mobile phone I noticed that the columns of text are very long, and having read one column, it is uncomfortable 
+to scroll up to read the second one, so I have changed the code, wrapping the text in flex-box and made it responsive to small screen sizes. Now on the smaller screens the text columns transform to rows and it is easy and pleasant to read the text. 
+
+### Unfixed bugs
+No unfixed bugs.
+
+## Deployment
+
+The site has been deployed to Pages on GitHub. For that I chose my project depository, went to Settings section, on the left bar chose Pages,
+in the Source section chose the option Branch: main, confirmed it with clicking the button Save and on the blue field the URL appeared where my project was deployed.
+
+ ![The URL with my project](https://juniva616.github.io/milestone-1/readme-files/deploy.png)
+
+ The live link to my project is https://juniva616.github.io/milestone-1/
+                    
+ ## Credits
+
+ ### Code 
+ 
+ - The minor fragments of CSS code was taken as a sample (with further adjustmens to the project's needs)  from different educational sites, tutorials and developer community sites, video on YouTube, which is commented in the code. 
+ - I express my gratitude to the following sites and people who offered the solutions to the problems I faced during the project making:
+     -  https://www.w3schools.com/ 
+     -  https://youtu.be/9YffrCViTVk
+     -  https://www.freecodecamp.org/news/css-flexbox-and-grid-tutorial/ 
+     -  https://stackoverflow.com/  
+     -  https://developer.mozilla.org/
+
+### Content
+
+- All content was written by the developer.  
+
+### Media
+- All images were supplied by the artist Juniva, who has Copyright &copy; to all these materials.
+
+### Acknowledgements
+
+- My Mentor for continuous helpful feedback.
+
+- Code Institute for their perfect detailed lessons and support.

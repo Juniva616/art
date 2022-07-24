@@ -60,14 +60,15 @@ h2 {
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-
+  flex-shrink: 1;
 }
 
 .flex-container > div {
  flex-direction: row;
   margin: 10px;
-  padding: 20px;
+  padding: 1%;
   font-size: 100%;
+  flex: 1 1 auto;
 }
 
 /* The end of the code from outer source  */

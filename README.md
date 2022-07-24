@@ -118,6 +118,39 @@ This form is very valuable as it allows the users to establish interactive commu
 - Paint and Photos were used to create the logo, resizing images and editing photos for the website.
  
  ------
+ ## Testing user stories from the User Experience (UX) section
+ 
+**Goals of the first visitor**
+
+- As a first visitor, I want to easily understand the main purpose of the site and learn more about the artist and her paintings.
+- Upon entering the site, the user sees an unusual eye-catching image of cat eyes and a clear and easy-to-read navigation bar that takes them to the page of their choice.
+- The user has two options: go to the picture album pages or scroll down the main page to learn more about the features on offer.
+- As a first visitor, I want to be able to easily navigate through the site looking for content.
+
+- The site has been designed to be intuitive and never trap the user. Each page has a simple navigation bar at the top, each link clearly describing which page they will land on.
+- At the bottom of all pages there is an up arrow link to redirect to the top of the page so that the user can easily navigate the site and never feel trapped when they get to the bottom of the page. By clicking on the link with an arrow up, the user is moved to the top of the page, where the navigation bar is located.
+
+- At the bottom of each page there is a call to "Contact Us" and links to social networks.
+- As a first visitor, I want to find their social media links to see their social media followers to determine how trusted and known they are.
+
+**Goals of regular visitors**
+
+- As a regular visitor, I want to find new paintings, painting workshops and information about the artist.
+
+- As a regular visitor, I want to find the best way to contact the artist for any questions I may have.
+
+- The navigation bar clearly highlights the "Contact Us" section.
+Also on the main page, they can fill out a form or send a message on social networks.
+
+- At the bottom of each page, there is a footer whose content is the same on all pages.
+- The footer contains links to the artist's pages on Instagram, Twitter and Facebook.
+ Whatever link they click will open in a new tab so the user can easily return to the website.
+
+- As a regular visitor, I want to find a Facebook group link so I can join and chat with other members of the community.
+
+- The Facebook page can be found in the footer of every page and will open a new tab for the user, and more information can be found on the Facebook page.
+
+ ------
 
 # Testing
 The site have been tested in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.

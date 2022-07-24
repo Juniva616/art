@@ -55,9 +55,12 @@ h2 {
 
 /* navigation bar links*/
 
+/* The code from outer source - https://www.w3schools.com/ with my changes added */
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
+
 }
 
 .flex-container > div {
@@ -66,6 +69,8 @@ h2 {
   padding: 20px;
   font-size: 100%;
 }
+
+/* The end of the code from outer source  */
 
 #menu {
     font-family: Ubuntu, sans-serif;
@@ -83,7 +88,6 @@ h2 {
     margin-left: 8%;
 }
 
-
 #menu a:hover {
     border-bottom: 1px solid  rgb(24, 24, 58);
 }
@@ -97,8 +101,7 @@ h2 {
     color: inherit;
 }
 
-/* the class site-idea styles the text section devoted to the site's goals*/
-
+/*  The code from outer source https://www.w3schools.com/ - with my adjustments*/
 
 .flex-container-text {
   display: flex;
@@ -127,42 +130,15 @@ h2 {
   }
 }
 
-.site-idea {
-    clear: both;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    box-sizing: border-box;
-}
+/* The end of the code from outer source  */
 
 .text-center {
     text-align: center;
  }
-
-/* text of the section in two columns*/
-
-.column {
-    float: left;
-    width: 40%;
-    padding: 20px;
-    margin: auto;
+ 
+  .text-justify {
     text-align: justify;
- }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
- }
-
- .column-left {
-    float: left;
-    margin-left: 3em;
- }
-
- .column-right {
-    float: right;
-    margin-right: 3em;
- }
+  }
 
  /* section Albums of paintings */
 
@@ -238,15 +214,7 @@ h2 {
         list-style-type: none;
         margin-left: 10px;
     }
-
-    .column {
-        float: left;
-        width: 40%;
-        padding: 20px;
-        margin: auto;
-        text-align: justify;
-     }
-     
+ 
   img {
     width: 80%;   
   }

@@ -1,56 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,400&family=Ubuntu&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;   
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: x-large;
-    color: #26083f;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: x-large;
+  color: #26083f;
 }
 
 /* heading and logo*/
- 
-h1, h2 {
-    font-family: Ubuntu, sans-serif;
-    letter-spacing: 4px;
+
+h1,
+h2 {
+  font-family: Ubuntu, sans-serif;
+  letter-spacing: 4px;
 }
 
 h1 {
-    color:white;
+  color: white;
 }
 
 h2 {
-    color: rgb(25, 4, 80);
+  color: rgb(25, 4, 80);
 }
 
-#logo-bg {
-    background-image: url('../images/bg-image.jpg'); 
-    background-color: #2e4608;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 20rem;
-    overflow: hidden;
+.logo-bg {
+  background-image: url('../images/bg-image.jpg');
+  background-color: #2e4608;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
 }
 
-#logo {
-    margin: 50px 0 0 30px;
-    font-size: 300%;   
+.logo {
+  margin: 50px 0 0 30px;
+  font-size: 300%;
 }
+
 /*  motto is places under the logo in the header */
-#motto {
-    color: whitesmoke;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    margin: 100px 0 30px 30px;
+.motto {
+  color: whitesmoke;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  margin: 100px 0 30px 30px;
 }
 
 /* navigation bar links*/
@@ -63,8 +65,8 @@ h2 {
   flex-shrink: 1;
 }
 
-.flex-container > div {
- flex-direction: row;
+.flex-container>div {
+  flex-direction: row;
   margin: 10px;
   padding: 1%;
   font-size: 100%;
@@ -73,33 +75,34 @@ h2 {
 
 /* The end of the code from outer source  */
 
-#menu {
-    font-family: Ubuntu, sans-serif;
-    font-size: 100%;
-    letter-spacing: 4px;
-    height: auto;
+.menu {
+  font-family: Ubuntu, sans-serif;
+  font-size: 100%;
+  letter-spacing: 4px;
+  height: auto;
 }
 
-#menu, #logo {
-    line-height: 90px;
+.menu,
+.logo {
+  line-height: 90px;
 }
 
-#menu div {
-    text-decoration: none;
-    margin-left: 8%;
+.menu div {
+  text-decoration: none;
+  margin-left: 8%;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid  rgb(24, 24, 58);
+.menu a:hover {
+  border-bottom: 1px solid rgb(24, 24, 58);
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
 }
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
+.menu a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*  The code from outer source https://www.w3schools.com/ - with my adjustments*/
@@ -118,7 +121,7 @@ h2 {
   flex: 40%;
 }
 
-.flex-item-right {                     
+.flex-item-right {
   padding: 10px;
   margin: 2%;
   flex: 40%;
@@ -134,123 +137,127 @@ h2 {
 /* The end of the code from outer source  */
 
 .text-center {
-    text-align: center;
- }
- 
-  .text-justify {
-    text-align: justify;
-  }
+  text-align: center;
+}
 
- /* section Albums of paintings */
+.text-justify {
+  text-align: justify;
+}
 
-  .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  .album {
-    flex-basis: 32%;
-    padding: 20px;
-    margin-top: 0;
-    flex-wrap: wrap;
-  }
+/* section Albums of paintings */
 
-  .clear {
-    clear: both;
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
 
-  .album a {
-    text-align: center;
-  }
+.album {
+  flex-basis: 32%;
+  padding: 20px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.clear {
+  clear: both;
+}
+
+.album a {
+  text-align: center;
+}
 
 
- .album a:hover {
-    color: #4548e0;
-    text-decoration: none;
-  }
-  
-  img {
-    width: 100%;
-  }
+.album a:hover {
+  color: #4548e0;
+  text-decoration: none;
+}
 
-  hr {
-    border-style: inset;
-    border-width: 1px;
-  }
-  
-  /* Media queries */
+img {
+  width: 100%;
+}
+
+hr {
+  border-style: inset;
+  border-width: 1px;
+}
+
+/* Media queries */
 
 /* For large screen sizes from 1400px to 1081px */
 
-@media screen and (max-width: 1400px){
-  #menu {
+@media screen and (max-width: 1400px) {
+  .menu {
     font-size: 100%;
     letter-spacing: 3px;
     height: auto;
   }
 }
 
-  /* For medium screen size from 1080px to 500 px */
+/* For medium screen size from 1080px to 500 px */
 
-  @media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px) {
 
-    body {
-        font-size: large;
-    }
+  body {
+    font-size: large;
+  }
 
-    #menu {    
-        font-size: 80%;
-        letter-spacing: 2px;
-        height: auto;
-    }
-    
-    #menu, #logo {
-        line-height: 60px;
-    }
-    
-    #menu li {
-        float: left;
-        list-style-type: none;
-        margin-left: 10px;
-    }
- 
+  .menu {
+    font-size: 80%;
+    letter-spacing: 2px;
+    height: auto;
+  }
+
+  .menu,
+  .logo {
+    line-height: 60px;
+  }
+
+  .menu li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+
   img {
-    width: 80%;   
+    width: 80%;
   }
+}
+
+/*   For mobile phone screen size from 500px and less */
+
+@media only screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
-  /*   For mobile phone screen size from 500px and less */
-  
-  @media only screen and (max-width: 500px){
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-    }
-    
-#logo {
-  margin: 30px 0 0 20px;
-  font-size: 200%;  
-} 
+  .logo {
+    margin: 30px 0 0 20px;
+    font-size: 200%;
   }
+}
+
 /* Responsive video - the code from outer source:  https://youtu.be/9YffrCViTVk */
 
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+
+.iframe-container iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+
 /* The end of the code from outer source  */
 
 /* The code with some changes was taken from outer source - https://www.freecodecamp.org/news/css-flexbox-and-grid-tutorial/ */
@@ -265,12 +272,12 @@ h2 {
 }
 
 form input {
-    padding: 10px 70px 10px 0;
-    font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    padding-left: 6px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -284,29 +291,28 @@ form input {
   cursor: pointer;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
+
 /* The end of the code from outer source */
 
 textarea {
   max-width: 95%;
-} 
+}
 
-  /* footer*/
+/* footer*/
 
-  .contacts {
-    height: 130px;
-    padding: 30px;
-    background-color: #093f02;
-    color: whitesmoke;
-    margin:  30px;
-  }
+.contacts {
+  height: 130px;
+  padding: 30px;
+  background-color: #093f02;
+  color: whitesmoke;
+  margin: 30px;
+}
 
-  .text-center a:hover {
-        color: #4548e0;
-        text-decoration: none;
-      }  
+.text-center a:hover {
+  color: #4548e0;
+  text-decoration: none;
+}
 
-  footer a {
-    color: whitesmoke;
-  }
-
-  
+footer a {
+  color: whitesmoke;
+}

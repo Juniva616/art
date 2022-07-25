@@ -158,7 +158,7 @@ Also on the main page, they can fill out a form or send a message on social netw
 
 # Testing
 - The site have been tested in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.
-- The site is adapted to different screen sizes which is tested with DevTools. On large screens the site is displayed as is, on devices
+- The site is adapted to different screen sizes which is tested with DevTools and with real notebook, smartphones and a tablet. On large screens the site is displayed as is, on devices
 with screens smaller than 1080 pixels font and image sizes are reduced, and on mobile phones the order of images and videos changes from row to column, allowing the user to see them clearly.
 - All pages of the site looks good and readable on types of devices. 
 - The form on the main page works properly, the buttons Submit and Clear form work well, input fields also work properly.
@@ -218,6 +218,7 @@ in the Source section chose the option Branch: main, confirmed it with clicking 
      -  https://www.freecodecamp.org/news/css-flexbox-and-grid-tutorial/ 
      -  https://stackoverflow.com/  
      -  https://developer.mozilla.org/
+     -  https://translate.google.com/
 
 ### Content
 

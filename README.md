@@ -121,7 +121,7 @@ This form is very valuable as it allows the users to establish interactive commu
 
 - The site allowed to get a nice picture demonstrating how my site will look on different devices.
 
-8. -  Google Translate
+8. **Google Translate**
 - https://translate.google.com/
  
  ------

@@ -127,17 +127,6 @@ h2 {
   flex: 40%;
 }
 
-/* Responsive layout - makes a one column-layout instead of two-column layout at screen size 800px and less*/
-@media (max-width: 800px) {
-  .flex-container-text {
-    flex-direction: column;
-  }
-
-  .menu div {
-    margin-left: 3%;
-  }
-}
-
 /* The end of the code from outer source  */
 
 .text-center {
@@ -197,6 +186,10 @@ hr {
     letter-spacing: 3px;
     height: auto;
   }
+
+  .menu div {
+    margin-left: 5%;
+  }
 }
 
 /* For medium screen size from 1080px to 500 px */
@@ -207,11 +200,11 @@ hr {
     font-size: large;
   }
 
-  .menu {
+ .menu {
     font-size: 80%;
     letter-spacing: 2px;
     height: auto;
-  }
+  } 
 
   .menu,
   .logo {
@@ -226,6 +219,20 @@ hr {
     width: 80%;
   }
 }
+
+/* Responsive layout - makes a one column-layout instead of two-column layout at screen size 800px and less*/
+/* The code from outer source https://www.w3schools.com/ - with my adjustments*/
+
+@media (max-width: 800px) {
+  .flex-container-text {
+    flex-direction: column;
+  }
+
+  .menu div {
+    margin-left: 3%;
+  }
+}
+/* The end of the code from outer source */
 
 /*   For mobile phone screen size from 500px and less */
 
@@ -282,7 +289,7 @@ hr {
 }
 
 form input {
-  padding: 10px 70px 10px 0;
+  padding: 10px 10px 10px 0;
   font-size: 14px;
   border: none;
   border-radius: 6px;

@@ -120,45 +120,41 @@ This form is very valuable as it allows the users to establish interactive commu
 7. https://ui.dev/amiresponsive
 
 - The site allowed to get a nice picture demonstrating how my site will look on different devices.
+
+8. -  Google Translate
+- https://translate.google.com/
  
  ------
- ## Testing user stories from the User Experience (UX) section
+ ##  User Experience (UX)  
  
-**Goals of the first visitor**
+1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the artist and her paintings.
+  - Upon entering the site, the user sees an unusual eye-catching image of cat eyes and a clear and easy-to-read navigation bar that takes them to the page of their choice.
+  - The user has two options: go to the picture album pages or scroll down the main page to learn more about the features on offer.  
+  - The user can see paintings in three albums by clicking on the relevant link. 
+  
+2.  As a First Time Visitor, I want to be able to easily navigate through the site looking for content.
 
-- As a first visitor, I want to easily understand the main purpose of the site and learn more about the artist and her paintings.
-- Upon entering the site, the user sees an unusual eye-catching image of cat eyes and a clear and easy-to-read navigation bar that takes them to the page of their choice.
-- The user has two options: go to the picture album pages or scroll down the main page to learn more about the features on offer.
-- As a first visitor, I want to be able to easily navigate through the site looking for content.
+- The site has been designed to be intuitive and never trap the user. Each page has a simple navigation bar at the top, each link clearly describes which page they will land on.
+- At the bottom of all pages there is an arrow up link to redirect to the top of the page so that the user can easily navigate through the site and never feel trapped when they get to the bottom of the page. 
 
-- The site has been designed to be intuitive and never trap the user. Each page has a simple navigation bar at the top, each link clearly describing which page they will land on.
-- At the bottom of all pages there is an arrow up link to redirect to the top of the page so that the user can easily navigate through the site and never feel trapped when they get to the bottom of the page. By clicking on the link with an arrow up, the user is moved to the top of the page, where the navigation bar is located.
+- By clicking on the link with an arrow up, the user is moved to the top of the page, where the navigation bar is located.
+
+3.  As a First Time Visitor, I want to find the  social media links and contacts of the artist.
 
 - At the bottom of each page there is a call for action "Contact Us" and links to social networks.
-- As a first visitor, I want to find their social media links to see their social media followers to determine how trusted and known they are.
-
-**Goals of regular visitors**
-
-- As a regular visitor, I want to find new paintings, painting masterclasses and information about the artist.
-
-- As a regular visitor, I want to find the best way to contact the artist for any questions I may have.
-
 - The navigation bar clearly highlights the "Contact Us" section.
-Also on the main page, they can fill out a form or send a message on social networks.
 
-- At the bottom of each page, there is a footer whose content is the same on all pages.
+- On the main page the user can fill out the form or send a message on social networks to contact the artist.
+
 - The footer contains links to the artist's pages on Instagram, Twitter and Facebook.
- Whatever link they click will open in a new tab so the user can easily return to the website.
 
-- As a regular visitor, I want to find a Facebook group link so I can join and chat with other members of the community.
-
-- The Facebook page link can be found in the footer of every page and will open a new tab for the user, and more information can be found on the Facebook page.
-
+ - Whatever link they click it  will open in a new tab so the user can easily return to the website.
+ 
  ------
 
 # Testing
 - The site have been tested in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.
-- The site is adapted to different screen sizes which is tested with DevTools and with real notebook, smartphones and a tablet. On large screens the site is displayed as is, on devices
+- The site is adapted to different screen sizes which is tested with DevTools and with a real notebook, smartphones and a tablet. On large screens the site is displayed as is, on devices
 with screens smaller than 1080 pixels font and image sizes are reduced, and on mobile phones the order of images and videos changes from row to column, allowing the user to see them clearly.
 - All pages of the site looks good and readable on types of devices. 
 - The form on the main page works properly, the buttons Submit and Clear form work well, input fields also work properly.
@@ -192,8 +188,11 @@ All four html pages of site have passed validation on https://validator.w3.org/ 
 
 ## Fixed bugs
 
-When I tested the site on the mobile phone I noticed that the columns of text are very long, and having read one column, it is uncomfortable 
-to scroll up to read the second one, so I have changed the code, wrapping the text in flex-box and made it responsive to small screen sizes. Now on the smaller screens the text columns transform to rows and it is easy and pleasant to read the text. 
+1. When I tested the site on the mobile phone I noticed that the columns of text are very long, and having read one column, it is uncomfortable 
+to scroll up to read the second one, so I have changed the code, wrapping the text in flex-box and made it responsive to small screen sizes. Now on the smaller screens the text columns transform to rows and it is easy to read the text. 
+2. The navigation bar did not shrink well when the screen size was reduced. I wrapped it in a flex-container but it did not help. The problem was
+in the style rule margin-left which was set to 8%. I have added new rules to media queries and the problem was fixed.
+3. The width of the input fields of the form was wider than the form on the mobile phone screens. The problem was fixed.
 
 ### Unfixed bugs
 No unfixed bugs.
@@ -218,7 +217,7 @@ in the Source section chose the option Branch: main, confirmed it with clicking 
      -  https://www.freecodecamp.org/news/css-flexbox-and-grid-tutorial/ 
      -  https://stackoverflow.com/  
      -  https://developer.mozilla.org/
-     -  https://translate.google.com/
+     
 
 ### Content
 

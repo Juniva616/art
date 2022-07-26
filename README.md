@@ -191,7 +191,7 @@ All four html pages of site have passed validation on https://validator.w3.org/ 
 to scroll up to read the second one, so I have changed the code, wrapping the text in flex-box and made it responsive to small screen sizes. Now on the smaller screens the text columns transform to rows and it is easy to read the text. 
 2. The navigation bar did not shrink well when the screen size was reduced. I wrapped it in a flex-container but it did not help. The problem was
 in the style rule margin-left which was set to 8%. I have added new rules to media queries and the problem was fixed.
-3. The width of the input fields of the form was wider than the form on the mobile phone screens. The problem was fixed.
+3. The width of the input fields of the form was wider than the form on the mobile phone screens. The problem was fixed by changing the css rule for margin property.
 
 ### Unfixed bugs
 No unfixed bugs.

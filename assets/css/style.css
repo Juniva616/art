@@ -245,7 +245,7 @@ hr {
 
   .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
   }
@@ -274,6 +274,7 @@ hr {
     .menu div {
       margin-left: 2%;
       line-height: 5px;
+      letter-spacing: 0;
     }
 
     form input {

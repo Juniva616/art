@@ -83,7 +83,7 @@ This form is very valuable as it allows the users to establish interactive commu
 
 ## The footer
 
- At the footer on all four pages there are links to the artist's social media accounts. The inks will open in a new tab to make navigation easier for the user. The footer is valuable for the user as it gives the opportunity to connect through social networks.
+ At the footer on all four pages there are links to the artist's social media accounts. The links will open in a new tab to make navigation easier for the user. The footer is valuable for the user as it gives the opportunity to connect through social networks.
  
  ![The footer section is the same on all pages](https://juniva616.github.io/milestone-1/readme-files/scr-footer.png)
  
@@ -111,7 +111,7 @@ This form is very valuable as it allows the users to establish interactive commu
  
 5. **GitHub:**
  
-- GitHub is used to store the projects code after being pushed from Git.
+- GitHub is used to store the projects code after being pushed from Git and to deploy the project to GitHub Pages.
 
 6. **Paint and Photos:**
   
@@ -144,11 +144,10 @@ This form is very valuable as it allows the users to establish interactive commu
 - At the bottom of each page there is a call for action "Contact Us" and links to social networks.
 - The navigation bar clearly highlights the "Contact Us" section.
 
-- On the main page the user can fill out the form or send a message on social networks to contact the artist.
+- On the main page the user can fill out the form to leave the feedback.
 
-- The footer contains links to the artist's pages on Instagram, Twitter and Facebook.
+- The footer contains the artist's contacts and links to Facebook, Instagram, Twitter.
 
- - Whatever link they click it  will open in a new tab so the user can easily return to the website.
  
  ------
 
@@ -156,7 +155,7 @@ This form is very valuable as it allows the users to establish interactive commu
 - The site have been tested in Chrome, Edge, Firefox and Opera and it works correctly in all browsers, all links work.
 - The site is adapted to different screen sizes which is tested with DevTools and with a real notebook, smartphones and a tablet. On large screens the site is displayed as is, on devices
 with screens smaller than 1080 pixels font and image sizes are reduced, and on mobile phones the order of images and videos changes from row to column, allowing the user to see them clearly.
-- All pages of the site looks good and readable on types of devices. 
+- All pages of the site looks good and readable on all types of devices. 
 - The form on the main page works properly, the buttons Submit and Clear form work well, input fields also work properly.
 
  ![Responsive site on different screen sizes](https://juniva616.github.io/milestone-1/readme-files/scr-respons.png)

@@ -200,11 +200,11 @@ hr {
     font-size: large;
   }
 
- .menu {
+  .menu {
     font-size: 80%;
     letter-spacing: 2px;
     height: auto;
-  } 
+  }
 
   .menu,
   .logo {
@@ -232,11 +232,27 @@ hr {
     margin-left: 3%;
   }
 }
+
 /* The end of the code from outer source */
 
 /*   For mobile phone screen size from 500px and less */
 
 @media only screen and (max-width: 500px) {
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .flex-container div {
+    
+    margin-left: 10px;
+    padding: 0;
+    font-size: 100%;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -251,11 +267,12 @@ hr {
 
   .menu div {
     margin-left: 2%;
+    line-height: 5px;
   }
 
   form input {
     padding: 10px 40px 10px 0;
-}
+  }
 }
 
 /* Responsive video - the code from outer source:  https://youtu.be/9YffrCViTVk */

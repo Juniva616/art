@@ -217,6 +217,7 @@ in the Source section chose the option Branch: main, confirmed it with clicking 
      -  https://www.freecodecamp.org/news/css-flexbox-and-grid-tutorial/ 
      -  https://stackoverflow.com/  
      -  https://developer.mozilla.org/
+     -  The smiles taken from Telegram  http://telegram.org
      
 
 ### Content
